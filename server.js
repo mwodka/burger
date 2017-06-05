@@ -25,4 +25,6 @@ app.use('/create', routes);
 var port = 3000;
 app.listen(port);
 
+console.log('server started on port ' + port);
+
 console.log(module.exports)
